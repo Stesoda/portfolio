@@ -95,6 +95,11 @@ p {
     color: #fff;
 }
 
+.bg-primary {
+    background: purple;
+    color: #fff;
+}
+
 .list {
     margin: 0.5rem 0;
     list-style: none;
@@ -211,9 +216,65 @@ border-bottom: #444 dotted 1px;
     width: 60%;
 }
 
+/* Section: contact */
+#contact {
+    display: flex;
 
+}
  
+ #contact .map, #contact .contact-form{
+
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    
+    margin: 0.75rem;
+}
+
+#contact .contact-form label{
+    display: block;  
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+
+}
+#contact .contact-img {
+    background: url('../img/bg_03.png') no-repeat center center/cover;
+}
+
+ /* Testimonials */
 
 
- 
+#testimonials .items {
+    display: flex;
+}
 
+#testimonials .items img {
+    display: block;
+    margin: auto ;
+    width: 60%;
+}
+
+/* links
+.links{
+    height: 200px !important;
+}
+
+.social-link{
+    gap:39px;
+
+}
+
+.social-link li{
+    width: 43px;
+    height: 43px;
+}
+
+.social-link li:hover{
+    color: #302626;
+    height: 43px;
+} */
