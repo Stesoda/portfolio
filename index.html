@@ -3,99 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen and(max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and(min-width: 1100px)"  href="css/widescreen.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Sophia Daniels</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-    
+
 </head>
-<body>
-    
-    <section>
-        
-        <!--navigation bar----->
-        <nav>
-            <ul>
-                <li><a href="#index.html">Home</a></li>
-                <li><a href="index.html">About me</a></li>
-                <li><a href="projects.html">projects</a></li>
-                
-            </ul>
-        </nav>
-    
-        <!----showcase-------->
-    <div class="text-container">
-        <p>Hello there,</p>
-        <p>I am SOPHIA STEPHANIE DANIELS</p>
-        <p>A Junior BACKEND DEVELOPER</p>
-        <button class="hire-btn"><a href="#" target="_blank" class="down-cv">Hire me</a></button>
-        <button><a href="#" target="_blank" class="down-cv">Download CV</a></button>
-    </div>
-    </section>
-    
-    <!---About--Section-->
-    <div class="about-container">
-<!------img-------------->
-        <img src="./assets/img/Sophia.jpg">
-        <!---about---text------->
-        <div class="about-me">
-            <p>About Me</p>
-            <p>A Junior BACKEND Developer</p>
-            <p>My name is SOPHIA DANIEL, an aspiring BACKend Developer who is comfortable using technologies such as HTML,CSS,JavaScript and Github. . I have deep knowledge in writing codes with javascript and it frameworks. Can't wait to work with you.</p>
-            <!---buttton----->
-            <button>Hire Me</button>
-            <button>Download CV</button>
-        </div>
-    </div>
-
-
-    <!------contact form-------->
-    <div class="contact">
-        <h1>Contact</h1>
-        <form  name="Form" method="POST" data-netlify="true">
-            <p>
-              <label>Name: <input type="text" name="name" placeholder="enter your name" required></label>   
-            </p>
-            <p>
-              <label>Email: <input type="email" name="email" placeholder="enter your email"  required></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
-              <button type="submit" class="btn">Send</button>
-            </p>
-          </form>
-    </div>
-       
-
-    <!-- footer -->
-    <div class="footer">
-    <!-- Social Link Section -->
-
-    <nav class="links">
-        <ul class="social-link">
-            <li><img src="./assets/img/facebook.svg" alt="" >Facebook</li>
-            <li><img src="./assets/img/github.svg" alt="" ><a href=""> GitHub</a></li>
-            <li><img src="./assets/img/linkedin.svg" alt="" >linkedin</li>
+<body id="home">   <!---id for smoooth scroll-->
+    <!-- navigation bar -->
+    <nav id ="navbar">
+        <h1 class="logo">
+            <span class="text-primary"><i class="fab fa-stripe-s"></i>
+            </span>tesoda
+        </h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
         </ul>
     </nav>
-             <!-- Netlify Subscribe Email Section -->
-<section>
-    <span style="font-size: 23px; margin-left: 23px;">Connect With me by Subscribing</span>
-    <form name="contact" class="form" netlify>
-      <p>
-            <label><span>Name</span> <input type="text" name="name"  required></label>
-        </p>
-        <p>
-            <label><span>Email</span> <input type="email" name="email"  required/></label>
-        </p>
-            <button type="submit" class="btn">Subscribe</button>
-        </p>
-    </form>
+
+    <!-- Header: Showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">
+                Hello, I'm Sophia    
+            </h1>
+            <p class="lead">A brooding backend developer || Fellow @ TIIDELab</p>
+        <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </header>
+
+    <!-- Section: What I do -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class=" m-heading text-center"><span class="text-primary">What</span> 
+            I do</h2>
+            <!-- one -->
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-cog fa-2x"></i>
+                    <div>
+                        <h3>Web Solutions</h3>  
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum quidem laborum obcaecati? Expedita, cum.</p>
+                    </div>
+                </div>
+                <!--two  -->
+              <div class="item">
+                <i class="fas fa-mail-bulk fa-2x"></i>
+                <div>
+                    <h3>Digital Marketing</h3>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, accusantium doloremque obcaecati ad quis labore..</p>
+                </div>
+              </div>
+
+              <!-- three -->
+              <div class="item">
+                <i class="fas fa-code fa-2x"></i>
+                <div>
+                    <h3>Software Development</h3>  
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, id? Ut ipsam quas omnis. Exercitationem?</p>
+                </div>
+               </div>
+
+            </div>
+
+        </div>
+
     </section>
-    <!-- Netlify Form End -->
-    </div>
-    </div>
-    
+
+    <!-- Section: About me  -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primary">About</span> Me</h2>
+            <p>My name is SOPHIA STEPHANIE DANIELS, an aspiring software developer, who is currently undergoing a six months intensive web development bootcamp/fellowship @ TIIDELab to become a Junior Developer. Can't wait to work with you.</p>
+            <h3>My skills</h3>
+            <ul class="list">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>Git/Github</li>
+                <li>Digital Marketing/Canva</li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <!-- Projects Section-->
+    <section id="projects" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">My</span> Projects
+            </h2>
+        <div class="items py-1">
+        <div><img src="img/box-1.png"> </div>
+        <div><img src="img/box-2.png"></div>
+        <div><img src="img/box-3.png"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+
 
 
 </body>
