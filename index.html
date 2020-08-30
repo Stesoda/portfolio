@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and(max-width: 768px)" href="css/mobile.css">
     <link rel="stylesheet" media="screen and(min-width: 1100px)"  href="css/widescreen.css">
-    <link rel="stylesheet" href="css/style.css">
+
     <title>Sophia Daniels</title>
 
 </head>
 <body id="home">   <!---id for smoooth scroll-->
-    <!-- navigation bar -->
+    <!--navigation bar -->
+     
     <nav id ="navbar">
         <h1 class="logo">
-            <span class="text-primary"><i class="fab fa-stripe-s"></i>
-            </span>tesoda
+            <span class="text-primary"><i class="fab fa-stripe-s "></i>
+            </span>TESODA
         </h1>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#what">What</a></li>
+            <li><a href="#what">Services</a></li>
             <li><a href="#who">About me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
@@ -27,6 +29,7 @@
             
         </ul>
     </nav>
+    
 
     <!-- Header: Showcase -->
     <header id="showcase">
@@ -102,9 +105,9 @@
                 <span class="text-primary">My</span> Projects
             </h2>
         <div class="items py-1">
-        <div><img src="img/box-1.png"> </div>
-        <div><img src="img/box-2.png"></div>
-        <div><img src="img/box-3.png"></div>
+        <div><a href="https://github.com/Stesoda/TIIDELab-Assignment" target="_blank"><img src="img/signupform.PNG" ></a></div>
+        <div><a href="https://github.com/Stesoda/TIIDELab-Assignment" target="_blank"><img src="img/signupform.PNG"></a></div>
+       
         </div>
     </section>
 
@@ -113,7 +116,9 @@
     
         <div class="contact-form bg-primary p-2">
             <h2 class="m-heading">Contact me</h2>
-            <p>Kindly fill the form below</p>
+            <p><i class="fas fa-phone-square-alt fa-2x"></i>09067044289<br>
+                <i class="far fa-envelope fa-2x"></i>Sophiadaniel92@gmail.com &nbsp;
+                <a href="https://github.com/Stesoda" target="_blank"><i class="fab fa-github fa-2x"></i></a> <a href="https://www.linkedin.com/in/sophia-stephanie-daniels-841a4a65?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BK91mvc3yRoi%2Fei8MnRJ8hg%3D%3D" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></p>
             <form  name="Form" method="POST" data-netlify="true">
                 <div class="form-group">
                   <label>Name: <input type="text" name="name" placeholder="enter your name" required></label>  
@@ -134,18 +139,7 @@
               </form>
         </div>
 
-        <!-- <div class="subcribe-form" >
-            <form name="contact" class="contact-form bg-primary p-2" netlify>
-            <p>
-                  <label><span>Name</span> <input type="text" name="name"  required></label>
-              </p>
-              <p>
-                  <label><span>Email</span> <input type="email" name="email"  required/></label>
-              </p>
-                  <button type="submit" class="btn">Subscribe</button>
-              </p>
-          </form>
-        </div> -->
+        
         <div class="contact-img"></div>
         
     </section>
@@ -159,24 +153,39 @@
             <span class="text-primary">Test</span>imonials
         </h2>
     <div class="items py-1">
-    <div><img src="img/box-1.png"> </div>
+    <div><img src="img/box-1.png" style="border-radius: 500px;">
+
+     </div>
     <div><img src="img/box-2.png"></div>
     <div><img src="img/box-3.png"></div>
     </div>
 </section>
 
+<!-- Moments from TIIDELAB -->
+<section id="moments" >
+    <h2 class="m-heading text-center">
+        <span class="text-primary">TIIDELab</span>Moments
+    </h2>
+     <div class="gallery">
+        <div class="img-items"><img src="img/image_06.jpg"></div>
+        <div class="img-items"><img src="img/image_01.JPG"></div>
+     </div>
+
+
+</section>
+
 <!-- Footer -->
-<footer id="main-footer" class="bg-dark text-center py-1">
+<footer id="footer" class="bg-dark text-center py-1">
     <div class="container">
-        <p>Copyright &copy; 2020, Stesoda, All Rights Reserved</p>
+        <form name="subscribe-Form" method="POST" data-netlify="true">
+            <label>Email: <input type="email" name="email" placeholder="enter your email"  required></label>
+            <button type="submit" class="btn btn-dark">Send</button>
+        </form>
+        <p>Copyright &copy; 2020, Stesoda, All Rights Reserved <a href="https://github.com/Stesoda" target="_blank"><i class="fab fa-github fa-2x"></i></a> <a href="https://www.linkedin.com/in/sophia-stephanie-daniels-841a4a65?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BK91mvc3yRoi%2Fei8MnRJ8hg%3D%3D" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></p>
     </div>
-    <!-- <nav class="links">
-        <ul class="social-link">
-            <li><img src=".img/facebook.svg" alt="" >Facebook</li>
-            <li><img src=".img/github.svg" alt="" > GitHub</li>
-            <li><img src=".img/linkedin.svg" alt="" >linkedin</li>
-        </ul>
-    </nav> -->
+
+    
+    
 </footer>
 
 </body>
