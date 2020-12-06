@@ -3,19 +3,19 @@
 html{
     scroll-behavior: smooth;
 }
-/* *{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} */
+}
 
-;*,
+/* ;*,
 *::after,
 *::before {
   box-sizing: border-box;
   margin: 0;
     padding: 0;
-}
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -118,11 +118,12 @@ padding: 0.5rem 0;
 border-bottom: #444 dotted 1px;
 }
 
+
 /*nav bar */
 .navbar {
     background: #333;
     padding: 15px 0px;
-    box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.2); */
   }
   
   .nav-align {
@@ -245,8 +246,8 @@ border-bottom: #444 dotted 1px;
   }
   
   .navbar .nav-link:hover {
-    background-color: #0c0c0c;
-    /* shorthand */
+    background-color:  #512C51;
+  
     transition: all ease-out 300ms;
   }
   
@@ -318,12 +319,12 @@ border-bottom: #444 dotted 1px;
     height: 100%;
     padding: 0 2rem;
     /* overlay */
-    position: absolute;
+    /* position: absolute;
     top: 60px;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0,6);
+    background-color: rgba(0,0,0,0,6); */
 }
 
 /* Section: what I do */
@@ -346,12 +347,14 @@ border-bottom: #444 dotted 1px;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
+    
 }
 
 /* Section :About me */
 
 #who {
     display: flex;
+    
 
 }
 
